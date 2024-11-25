@@ -20,16 +20,7 @@ const carruseles = [
         description: "Producto 1 - Descripción detallada aquí.",
         price: "$100",
     },
-    {
-        images: ["/Page/Publicaciones/5/9.png", "/Page/Publicaciones/5/10.png", "/Page/Publicaciones/5/11.png", "/Page/Publicaciones/5/12.png"],
-        description: "Producto 2 - Descripción detallada aquí.",
-        price: "$120",
-    },
-    {
-        images: ["/Page/Publicaciones/5/20.png", "/Page/Publicaciones/5/21.png", "/Page/Publicaciones/5/22.png", "/Page/Publicaciones/5/23.png"],
-        description: "Producto 3 - Descripción detallada aquí.",
-        price: "$90",
-    }
+
 ];
 
 // Contenedor donde se generarán los carruseles
