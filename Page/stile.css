@@ -1,0 +1,657 @@
+body {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+header {
+    z-index: 100;
+    background: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 2px 9px;
+    border-bottom: 1px solid black;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+}
+.menu{
+    display: none;
+}
+#responsive-menu {
+    display: none;
+}
+
+
+
+header ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+header ul li {
+    margin-right: 15px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+header img {
+    width: 30px;
+}
+
+header nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+    color: #555;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10%;
+}
+
+aside {
+
+    text-align: center;
+}
+
+aside img {
+    max-width: 100%;
+    height: auto;
+}
+
+section {
+
+    padding: 0px;
+    margin-top: 0px;
+    width: 100%;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.carousel {
+    margin: 13%;
+    position: relative;
+    width: 70%;
+    border-radius: 30px;
+    max-width: 600px;
+    overflow: hidden;
+    border: 1px solid #ddd; /* Opcional: para resaltar el área del carrusel */
+    transition: 0.7s;
+}
+.carousel:hover{
+    width: 80%;
+}
+#carousel-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.carousel-slide img{
+    min-width: 100%;
+    height: auto;
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 24px;
+    color: #333;
+    background: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1; 
+    border-radius: 10%;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Contenedor de descripción */
+.carousel-description {
+    margin-top: 15px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo del texto de la descripción */
+.carousel-description p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.carousel-description .price {
+    font-weight: bold;
+    font-size: 18px;
+    color: #007BFF;
+}
+
+/* Botón de compra */
+.buy-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #eb0000;
+}
+
+.buy-button:active {
+    background-color: #ffffff;
+}
+
+#cart {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#cart img {
+    width: 40px;
+    height: 40px;
+}
+
+#cart .contador {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: red;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#cart #cart-container {
+    display: none;
+    position: absolute;
+    top: 50px;
+    right: 0;
+    width: 600px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    padding: 10px;
+}
+
+#cart #cart-container ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#cart #cart-container ul li {
+    padding: 5px 0;
+    font-size: 14px;
+    border-bottom: 1px solid #ddd;
+}
+
+#cart #cart-container p {
+    margin: 10px 0;
+    font-weight: bold;
+    text-align: right;
+}
+
+#cart #cart-container button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+
+#cart #cart-container button:hover {
+    background-color: #218838;
+}
+
+/* Mostrar el carrito emergente al pasar el mouse */
+#cart:hover #cart-container {
+    display: block;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    header{
+        position: none;
+        display: none;
+
+    }
+    header h1{
+        display: inline;
+        margin-left: 42%;
+    }
+    aside {
+        position: relative;
+
+    }
+    .menu{
+        z-index: 100;
+        background: white;
+        display: flex;
+        padding: 2px 10px;
+        width: 100%;
+        border-bottom: 1px solid black;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        box-sizing: border-box;
+    }
+    #responsive-menu {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 30%; 
+        height: 100%;
+        background-color: #fff;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        z-index: 1000;
+    }
+    
+    /* Mostrar el menú cuando se activa */
+    #responsive-menu.active {
+        display: block;
+    }
+    #responsive-menu ul{
+        text-align: center;
+        display: block;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    #responsive-menu ul li{
+        margin-top: 10px;
+        list-style-type: none;
+        
+    }
+    #responsive-menu ul li a{
+        text-decoration: none;
+        color: black;
+        
+    }
+    #responsive-menu img{
+        width: 30%;
+
+    }
+    
+    /* Imagen del menú */
+    #menu-toggle {
+        cursor: pointer;
+        width: 30px; /* Ajusta el tamaño según prefieras */
+    }
+    .redes{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    #cart{
+        position: absolute;
+        width: 100%;
+    }
+
+    #cart {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    #cart img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    #cart .contador {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: red;
+        color: white;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    #cart #cart-container {
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 600px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+        padding: 10px;
+    }
+    
+    #cart #cart-container ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #cart #cart-container ul li {
+        padding: 5px 0;
+        font-size: 14px;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    #cart #cart-container p {
+        margin: 10px 0;
+        font-weight: bold;
+        text-align: right;
+    }
+    
+    #cart #cart-container button {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        width: 100%;
+    }
+    
+    #cart #cart-container button:hover {
+        background-color: #218838;
+    }
+    
+    /* Mostrar el carrito emergente al pasar el mouse */
+    #cart:hover #cart-container {
+        display: block;
+    }
+
+    header ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    #carousel-container{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-right: 10%;
+    }
+    .carousel-slide {
+        display: flex;
+        transition: transform 0.5s ease;
+    }
+    .carousel {
+        margin: 13%;
+        position: relative;
+        width: 60%;
+        border-radius: 20px;
+        max-width: 400px;
+        overflow: hidden;
+        border: 1px solid #ddd; /* Opcional: para resaltar el área del carrusel */
+        transition: 0.7s;
+    }
+    .desplegarmenu{
+        display: block;
+    }
+
+    .carousel-button {
+        font-size: 20px;
+    }
+
+    .buy-button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    header{
+        position: none;
+        display: none;
+
+    }
+    header h1{
+        display: inline;
+        margin-left: 32%;
+    }
+    aside {
+        position: relative;
+
+    }
+    .menu{
+        z-index: 100;
+        background: white;
+        display: flex;
+        padding: 2px 10px;
+        width: 100%;
+        border-bottom: 1px solid black;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+        box-sizing: border-box;
+    }
+    #responsive-menu {
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 30%; 
+        height: 100%;
+        background-color: #fff;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        padding: 20px;
+        z-index: 1000;
+    }
+    
+    /* Mostrar el menú cuando se activa */
+    #responsive-menu.active {
+        display: block;
+    }
+    #responsive-menu ul{
+        text-align: center;
+        display: block;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    #responsive-menu ul li{
+        margin-top: 10px;
+        list-style-type: none;
+        
+    }
+    #responsive-menu ul li a{
+        text-decoration: none;
+        color: black;
+        
+    }
+    #responsive-menu img{
+        width: 30%;
+
+    }
+    
+    /* Imagen del menú */
+    #menu-toggle {
+        cursor: pointer;
+        width: 30px; /* Ajusta el tamaño según prefieras */
+    }
+    .redes{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    #cart{
+        position: absolute;
+        width: 100%;
+    }
+
+    #cart {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+    }
+    
+    #cart img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    #cart .contador {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: red;
+        color: white;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    #cart #cart-container {
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 0;
+        width: 600px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+        padding: 10px;
+    }
+    
+    #cart #cart-container ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #cart #cart-container ul li {
+        padding: 5px 0;
+        font-size: 14px;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    #cart #cart-container p {
+        margin: 10px 0;
+        font-weight: bold;
+        text-align: right;
+    }
+    
+    #cart #cart-container button {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-align: center;
+        width: 100%;
+    }
+    
+    #cart #cart-container button:hover {
+        background-color: #218838;
+    }
+    
+    /* Mostrar el carrito emergente al pasar el mouse */
+    #cart:hover #cart-container {
+        display: block;
+    }
+    
+    header ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    #carousel-container{
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-right: 12%;
+    }
+    .carousel-slide {
+        display: flex;
+        transition: transform 0.5s ease;
+    }
+    .carousel {
+        margin: 13%;
+        position: relative;
+        width: 98%;
+        border-radius: 20px;
+        max-width: 400px;
+        overflow: hidden;
+        border: 1px solid #ddd; /* Opcional: para resaltar el área del carrusel */
+        transition: 0.7s;
+    }
+    .desplegarmenu{
+        display: block;
+    }
+
+    .carousel-button {
+        font-size: 20px;
+    }
+
+    .buy-button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+}

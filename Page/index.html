@@ -1,0 +1,107 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandira - Marroquinería</title>
+
+    <meta name="description" content="Mandira ofrece marroquinería unisex de calidad: carteras, mochilas y accesorios con estilo único. ¡Encuentra tu diseño perfecto!">
+    <meta name="keywords" content="marroquinería, carteras, mochilas, accesorios, Mandira, unisex, estilo, calidad">
+    <meta name="author" content="Predist">
+    <meta name="robots" content="index, follow">
+
+    <link rel="icon" href="./data/MANDIRA/Logos/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./stile.css">
+
+    <!-- Open Graph (redes sociales) -->
+    <meta property="og:title" content="Mandira - Marroquinería de calidad">
+    <meta property="og:description" content="Carteras, mochilas y accesorios únicos de Mandira. Diseños modernos y funcionales para todos.">
+    <meta property="og:image" content="/Logos/2.png">
+    <meta property="og:url" content="https://www.mandira.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mandira - Marroquinería de calidad">
+    <meta name="twitter:description" content="Carteras, mochilas y accesorios únicos. ¡Descubre Mandira!">
+    <meta name="twitter:image" content="./data/MANDIRA/Logos/twitter-image.png">
+</head>
+<body>
+    <div class="contenedor">
+        <div id="mensaje" style="position: fixed; bottom: 10px; z-index: 1000;right: 10px; background: #333; color: white; padding: 10px 20px; border-radius: 5px; display: none;"></div>
+        <div class="menu">
+            <img id="menu-toggle" src="/IMG/Icon/menu.svg" alt="Menú">
+            <h1>MANDIRA</h1>
+        </div>
+        <div id="responsive-menu" >
+            <ul>
+
+
+                <li><a href="#catalogo">Catálogo</a></li>
+
+                <li><a href="https://www.facebook.com/profile.php?id=61565735295580&locale=es_LA"><img src="/IMG/Icon/facebook.svg" alt="Facebook"></a></li>
+                <li><a href="https://www.instagram.com/marroquineria.mandira/"><img src="/IMG/Icon/instagram.svg" alt="Instagram"></a></li>
+                <li><a href="https://wa.me/3564645861?text=Hola mi nombre es:"><img src="/IMG/Icon/whatsapp.svg" alt="WhatsApp"></a></li>
+
+
+                <li>
+                    <div id="cart">
+                    <img src="/IMG/Icon/shopping-cart.svg" alt="Carrito de compras">
+                    <div id="cart-container"></div>
+                        <div class="contador">
+                            <p>0</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            
+        </div>
+        
+        <!-- Header con navegación -->
+        <header>
+
+            <div class="redes">
+                <ul>
+                    <li><a href="https://www.facebook.com/profile.php?id=61565735295580&locale=es_LA"><img src="/IMG/Icon/facebook.svg" alt="Facebook"></a></li>
+                    <li><a href="https://www.instagram.com/marroquineria.mandira/"><img src="/IMG/Icon/instagram.svg" alt="Instagram"></a></li>
+                    <li><a href="https://wa.me/3564645861?text=Hola mi nombre es:"><img src="/IMG/Icon/whatsapp.svg" alt="WhatsApp"></a></li>
+                </ul>
+            </div>
+            <h1>MANDIRA</h1>
+            <nav>
+                <ul>
+                    <li><a href="#catalogo">Catálogo</a></li>
+
+                    <li>
+                        <div id="cart">
+                            <img src="/IMG/Icon/shopping-cart.svg" alt="Carrito de compras">
+                            <div id="cart-container"></div>
+                            <div class="contador">
+                                <p>0</p> <!-- Contador de productos -->
+                            </div>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </nav>
+        </header>
+                    
+
+        <!-- Imagen principal -->
+        <aside>
+            <img src="./Publicaciones/Mandira (1580 x 450 px).png" alt="Banner de Mandira mostrando productos destacados">
+        </aside>
+
+
+        <!-- Sección de productos -->
+        <h2>💼Mira nuestro catalogo💼</h2>  
+        
+        <section id="catalogo" class="productos">
+            <div id="carousel-container"></div>
+        </section> 
+
+        
+
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
