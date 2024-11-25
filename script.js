@@ -20,7 +20,6 @@ const carruseles = [
         description: "Producto 1 - Descripción detallada aquí.",
         price: "$100",
     },
-
 ];
 
 // Contenedor donde se generarán los carrseles
@@ -89,7 +88,7 @@ function updateCartPopup() {
 
 // Función para confirmar la compra y redirigir a WhatsApp
 function confirmPurchase() {
-    let message = "¡Hola! Quiero informacion el estado de los si:\n";
+    let message = "¡Hola! Me gustaria hacer la siguiente compra:\n";
     cart.forEach((item) => {
         message += `- ${item.description}: ${item.price}\n`;
     });
