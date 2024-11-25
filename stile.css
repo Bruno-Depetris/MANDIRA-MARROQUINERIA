@@ -446,7 +446,7 @@ h2{
         border-radius: 30px;
         max-width: 600px;
         overflow: hidden;
-    
+        margin-left: 20%;
         transition: 0.7s;
     }
     .carousel:active{
