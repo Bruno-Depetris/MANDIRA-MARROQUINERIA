@@ -23,7 +23,7 @@ const carruseles = [
 
 ];
 
-// Contenedor donde se generarán los carruseles
+// Contenedor donde se generarán los carrseles
 const container = document.getElementById("carousel-container");
 
 // Carrito de compras
