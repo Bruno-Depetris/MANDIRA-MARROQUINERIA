@@ -3,57 +3,58 @@ const carruseles = [
     {
         images: ["/Page/Publicaciones/5/1.png", "/Page/Publicaciones/5/2.png", "/Page/Publicaciones/5/3.png", "/Page/Publicaciones/5/4.png", "/Page/Publicaciones/5/5.png", "/Page/Publicaciones/5/6.png", "/Page/Publicaciones/5/7.png", "/Page/Publicaciones/5/8.png"],
         description: "Mochila Negra - AMAYRA",
-        price: "$100",
+        price: "$46260",
     },
     {
         images: ["/Page/Publicaciones/5/9.png", "/Page/Publicaciones/5/10.png", "/Page/Publicaciones/5/11.png", "/Page/Publicaciones/5/12.png", "/Page/Publicaciones/5/13.png", "/Page/Publicaciones/5/14.png"],
         description: "Mochila - Everlast BYN",
-        price: "$100",
+        price: "$35180",
     },
     {
         images: ["/Page/Publicaciones/5/20.png", "/Page/Publicaciones/5/21.png", "/Page/Publicaciones/5/22.png", "/Page/Publicaciones/5/23.png", "/Page/Publicaciones/5/24.png", "/Page/Publicaciones/5/25.png"],
         description: "Mochila Negra Opaca - CHIMOLA",
-        price: "$100",
+        price: "$86630",
     },
     {
         images: ["/Page/Publicaciones/5/26.png", "/Page/Publicaciones/5/27.png", "/Page/Publicaciones/5/28.png", "/Page/Publicaciones/5/29.png", "/Page/Publicaciones/5/30.png", "/Page/Publicaciones/5/31.png"],
         description: "Mochila Rosa - INFLUENCE",
-        price: "$100",
+        price: "$35760",
     },
     {
         images: ["/Page/Publicaciones/5/32.png", "/Page/Publicaciones/5/33.png", "/Page/Publicaciones/5/34.png", "/Page/Publicaciones/5/35.png", "/Page/Publicaciones/5/36.png"],
         description: "Mochila Roja - WILSON",
-        price: "$100",
+        price: "$23350",
     },
     {
         images: ["/Page/Publicaciones/5/37.png", "/Page/Publicaciones/5/38.png", "/Page/Publicaciones/5/39.png", "/Page/Publicaciones/5/40.png", "/Page/Publicaciones/5/41.png", "/Page/Publicaciones/5/42.png"],
-        description: "Mochila Negra Opaca - CHIMOLA",
-        price: "$100",
+        description: "Mochila Con USB - UNICROSS",
+        price: "$35250",
     },
-    {
-        images: ["/Page/Publicaciones/5/37.png", "/Page/Publicaciones/5/38.png", "/Page/Publicaciones/5/39.png", "/Page/Publicaciones/5/40.png", "/Page/Publicaciones/5/41.png", "/Page/Publicaciones/5/42.png"],
-        description: "Mochila Negra Opaca - CHIMOLA",
-        price: "$100",
-    },
+    
     {
         images: ["/Page/Publicaciones/5/47.png", "/Page/Publicaciones/5/48.png"],
         description: "Billetera VERDE - AMAYRA",
-        price: "$100",
+        price: "$11400",
     },
     {
         images: ["/Page/Publicaciones/5/49.png", "/Page/Publicaciones/5/50.png", "/Page/Publicaciones/5/51.png"],
         description: "Billetera NEGRA - AMAYRA",
-        price: "$100",
+        price: "$14800",
     },
     {
         images: ["/Page/Publicaciones/5/52.png", "/Page/Publicaciones/5/53.png", "/Page/Publicaciones/5/54.png"],
         description: "Billetera CELESTE - AMAYRA",
-        price: "$100",
+        price: "$11400",
     },
     {
         images: ["/Page/Publicaciones/5/55.png", "/Page/Publicaciones/5/56.png", "/Page/Publicaciones/5/57.png", "/Page/Publicaciones/5/58.png"],
         description: "Billetera NEGRA LISA - AMAYRA",
-        price: "$100",
+        price: "$11400",
+    },
+    {
+        images: ["/Page/Publicaciones/5/43.png", "/Page/Publicaciones/5/44.png", "/Page/Publicaciones/5/45.png", "/Page/Publicaciones/5/46.png"],
+        description: "Cartera NEGRA - TRENDY",
+        price: "$19800",
     },
 
 ];
