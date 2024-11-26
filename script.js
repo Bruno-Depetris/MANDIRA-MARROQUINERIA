@@ -8,7 +8,7 @@ const carruseles = [
     {
         images: ["/Page/Publicaciones/6/1.png", "/Page/Publicaciones/6/2.png", "/Page/Publicaciones/6/3.png", "/Page/Publicaciones/6/4.png", "/Page/Publicaciones/6/5.png", "/Page/Publicaciones/6/6.png", "/Page/Publicaciones/6/7.png"],
         description: "Cartera - BARBARA",
-        price: "$55000",
+        price: "$60000",
     },
 
 
