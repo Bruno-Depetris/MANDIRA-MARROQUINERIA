@@ -1,6 +1,38 @@
 // Datos de los carruseles: cada array es un conjunto de imágenes y sus detalles
 const carruseles = [
     {
+        images: ["/Page/Publicaciones/6/12.png", "/Page/Publicaciones/6/13.png", "/Page/Publicaciones/6/14.png", "/Page/Publicaciones/6/15.png", "/Page/Publicaciones/6/16.png"],
+        description: "Bandolera ROSA - CHIMOLA",
+        price: "$55000",
+    },
+    {
+        images: ["/Page/Publicaciones/6/1.png", "/Page/Publicaciones/6/2.png", "/Page/Publicaciones/6/3.png", "/Page/Publicaciones/6/4.png", "/Page/Publicaciones/6/5.png", "/Page/Publicaciones/6/6.png", "/Page/Publicaciones/6/7.png"],
+        description: "Cartera - BARBARA",
+        price: "$55000",
+    },
+
+
+    {
+        images: ["/Page/Publicaciones/6/28.png", "/Page/Publicaciones/6/29.png", "/Page/Publicaciones/6/30.png", "/Page/Publicaciones/6/31.png"],
+        description: "Riñonera XXL Negra - REINA",
+        price: "$30600",
+    },
+    {
+        images: ["/Page/Publicaciones/6/24.png", "/Page/Publicaciones/6/25.png", "/Page/Publicaciones/6/26.png", "/Page/Publicaciones/6/27.png"],
+        description: "Bandolera NEGRA op3 - TRENDY",
+        price: "$25000",
+    },
+    {
+        images: ["/Page/Publicaciones/6/21.png", "/Page/Publicaciones/6/22.png", "/Page/Publicaciones/6/23.png"],
+        description: "Bandolera NEGRA op2 - TRENDY",
+        price: "$25000",
+    },
+    {
+        images: ["/Page/Publicaciones/6/17.png", "/Page/Publicaciones/6/18.png", "/Page/Publicaciones/6/19.png", "/Page/Publicaciones/6/20.png"],
+        description: "Bandolera NEGRA op1 - TRENDY",
+        price: "$25000",
+    },
+    {
         images: ["/Page/Publicaciones/5/1.png", "/Page/Publicaciones/5/2.png", "/Page/Publicaciones/5/3.png", "/Page/Publicaciones/5/4.png", "/Page/Publicaciones/5/5.png", "/Page/Publicaciones/5/6.png", "/Page/Publicaciones/5/7.png", "/Page/Publicaciones/5/8.png"],
         description: "Mochila Negra - AMAYRA",
         price: "$46260",
