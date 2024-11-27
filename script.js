@@ -1,5 +1,36 @@
 // Datos de los carruseles: cada array es un conjunto de imágenes y sus detalles
 const carruseles = [
+
+    {
+        images: ["/Page/Publicaciones/7/svg/1.svg", "/Page/Publicaciones/7/svg/2.svg", "/Page/Publicaciones/7/svg/3.svg", "/Page/Publicaciones/7/svg/4.svg", "/Page/Publicaciones/7/svg/5.svg", "/Page/Publicaciones/7/svg/6.svg"],
+        description: "Mochila EVERLAST - FEMENINA TAM MEDIO",
+        price: "$27300",
+    },
+    {
+        images: ["/Page/Publicaciones/7/svg/7.svg", "/Page/Publicaciones/7/svg/8.svg", "/Page/Publicaciones/7/svg/9.svg", "/Page/Publicaciones/7/svg/10.svg", "/Page/Publicaciones/7/svg/11.svg", "/Page/Publicaciones/7/svg/12.svg", "/Page/Publicaciones/7/svg/13.svg", "/Page/Publicaciones/7/svg/14.svg"],
+        description: "Mochila EVERLAST Verde- XXL",
+        price: "$37500",
+    },
+    {
+        images: ["/Page/Publicaciones/7/svg/15.svg", "/Page/Publicaciones/7/svg/16.svg", "/Page/Publicaciones/7/svg/17.svg", "/Page/Publicaciones/7/svg/18.svg", "/Page/Publicaciones/7/svg/19.svg", "/Page/Publicaciones/7/svg/20.svg"],
+        description: "Morral - BOCA PEZ EVERLAST",
+        price: "$31300",
+    },
+    {
+        images: ["/Page/Publicaciones/7/svg/21.svg", "/Page/Publicaciones/7/svg/22.svg", "/Page/Publicaciones/7/svg/23.svg", "/Page/Publicaciones/7/svg/24.svg", "/Page/Publicaciones/7/svg/25.svg"],
+        description: "Maletin - TRAVEL TECH",
+        price: "$21300",
+    },
+    {
+        images: ["/Page/Publicaciones/7/svg/26.svg", "/Page/Publicaciones/7/svg/27.svg", "/Page/Publicaciones/7/svg/28.svg", "/Page/Publicaciones/7/svg/29.svg", "/Page/Publicaciones/7/svg/30.svg", "/Page/Publicaciones/7/svg/31.svg", "/Page/Publicaciones/7/svg/32.svg"],
+        description: "Maletin - BOSSI",
+        price: "$25600",
+    },
+    {
+        images: ["/Page/Publicaciones/7/svg/33.svg", "/Page/Publicaciones/7/svg/34.svg", "/Page/Publicaciones/7/svg/35.svg", "/Page/Publicaciones/7/svg/36.svg", "/Page/Publicaciones/7/svg/37.svg", "/Page/Publicaciones/7/svg/38.svg", "/Page/Publicaciones/7/svg/39.svg",  "/Page/Publicaciones/7/svg/40.svg"],
+        description: "Billeteras - EVERLAST-HEAD",
+        price: "$13000",
+    },
     {
         images: ["/Page/Publicaciones/6/12.png", "/Page/Publicaciones/6/13.png", "/Page/Publicaciones/6/14.png", "/Page/Publicaciones/6/15.png", "/Page/Publicaciones/6/16.png"],
         description: "Bandolera ROSA - CHIMOLA",
@@ -10,8 +41,6 @@ const carruseles = [
         description: "Cartera - BARBARA",
         price: "$60000",
     },
-
-
     {
         images: ["/Page/Publicaciones/6/28.png", "/Page/Publicaciones/6/29.png", "/Page/Publicaciones/6/30.png", "/Page/Publicaciones/6/31.png"],
         description: "Riñonera XXL Negra - REINA",
