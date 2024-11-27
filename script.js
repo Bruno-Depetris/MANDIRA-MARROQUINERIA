@@ -2,32 +2,32 @@
 const carruseles = [
 
     {
-        images: ["/Page/Publicaciones/7/svg/1.svg", "/Page/Publicaciones/7/svg/2.svg", "/Page/Publicaciones/7/svg/3.svg", "/Page/Publicaciones/7/svg/4.svg", "/Page/Publicaciones/7/svg/5.svg", "/Page/Publicaciones/7/svg/6.svg"],
+        images: ["/Page/Publicaciones/7/1.png", "/Page/Publicaciones/7/2.png", "/Page/Publicaciones/7/3.png", "/Page/Publicaciones/7/4.png", "/Page/Publicaciones/7/5.png", "/Page/Publicaciones/7/6.png"],
         description: "Mochila EVERLAST - FEMENINA TAM MEDIO",
         price: "$27300",
     },
     {
-        images: ["/Page/Publicaciones/7/svg/7.svg", "/Page/Publicaciones/7/svg/8.svg", "/Page/Publicaciones/7/svg/9.svg", "/Page/Publicaciones/7/svg/10.svg", "/Page/Publicaciones/7/svg/11.svg", "/Page/Publicaciones/7/svg/12.svg", "/Page/Publicaciones/7/svg/13.svg", "/Page/Publicaciones/7/svg/14.svg"],
+        images: ["/Page/Publicaciones/7/7.png", "/Page/Publicaciones/7/8.png", "/Page/Publicaciones/7/9.png", "/Page/Publicaciones/7/10.png", "/Page/Publicaciones/7/11.png", "/Page/Publicaciones/7/12.png", "/Page/Publicaciones/7/13.png", "/Page/Publicaciones/7/14.png"],
         description: "Mochila EVERLAST Verde- XXL",
         price: "$37500",
     },
     {
-        images: ["/Page/Publicaciones/7/svg/15.svg", "/Page/Publicaciones/7/svg/16.svg", "/Page/Publicaciones/7/svg/17.svg", "/Page/Publicaciones/7/svg/18.svg", "/Page/Publicaciones/7/svg/19.svg", "/Page/Publicaciones/7/svg/20.svg"],
+        images: ["/Page/Publicaciones/7/15.png", "/Page/Publicaciones/7/16.png", "/Page/Publicaciones/7/17.png", "/Page/Publicaciones/7/18.png", "/Page/Publicaciones/7/19.png", "/Page/Publicaciones/7/20.png"],
         description: "Morral - BOCA PEZ EVERLAST",
         price: "$31300",
     },
     {
-        images: ["/Page/Publicaciones/7/svg/21.svg", "/Page/Publicaciones/7/svg/22.svg", "/Page/Publicaciones/7/svg/23.svg", "/Page/Publicaciones/7/svg/24.svg", "/Page/Publicaciones/7/svg/25.svg"],
+        images: ["/Page/Publicaciones/7/21.png", "/Page/Publicaciones/7/22.png", "/Page/Publicaciones/7/23.png", "/Page/Publicaciones/7/24.png", "/Page/Publicaciones/7/25.png"],
         description: "Maletin - TRAVEL TECH",
         price: "$21300",
     },
     {
-        images: ["/Page/Publicaciones/7/svg/26.svg", "/Page/Publicaciones/7/svg/27.svg", "/Page/Publicaciones/7/svg/28.svg", "/Page/Publicaciones/7/svg/29.svg", "/Page/Publicaciones/7/svg/30.svg", "/Page/Publicaciones/7/svg/31.svg", "/Page/Publicaciones/7/svg/32.svg"],
+        images: ["/Page/Publicaciones/7/26.png", "/Page/Publicaciones/7/27.png", "/Page/Publicaciones/7/28.png", "/Page/Publicaciones/7/29.png", "/Page/Publicaciones/7/30.png", "/Page/Publicaciones/7/31.png", "/Page/Publicaciones/7/32.png"],
         description: "Maletin - BOSSI",
         price: "$25600",
     },
     {
-        images: ["/Page/Publicaciones/7/svg/33.svg", "/Page/Publicaciones/7/svg/34.svg", "/Page/Publicaciones/7/svg/35.svg", "/Page/Publicaciones/7/svg/36.svg", "/Page/Publicaciones/7/svg/37.svg", "/Page/Publicaciones/7/svg/38.svg", "/Page/Publicaciones/7/svg/39.svg",  "/Page/Publicaciones/7/svg/40.svg"],
+        images: ["/Page/Publicaciones/7/33.png", "/Page/Publicaciones/7/34.png", "/Page/Publicaciones/7/35.png", "/Page/Publicaciones/7/36.png", "/Page/Publicaciones/7/37.png", "/Page/Publicaciones/7/38.png", "/Page/Publicaciones/7/39.png",  "/Page/Publicaciones/7/40.png"],
         description: "Billeteras - EVERLAST-HEAD",
         price: "$13000",
     },
