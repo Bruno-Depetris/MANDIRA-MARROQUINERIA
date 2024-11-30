@@ -176,7 +176,7 @@ function updateCartPopup() {
 
     // Botón para confirmar compra
     const confirmButton = document.createElement("button");
-    confirmButton.textContent = "Confirmar compra";
+    confirmButton.textContent = "Realizar Pedido";
     confirmButton.onclick = confirmPurchase;
 
     cartContainer.appendChild(list);
