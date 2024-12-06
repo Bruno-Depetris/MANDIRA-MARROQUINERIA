@@ -12,6 +12,11 @@ const carruseles = [
         price: "$37500",
     },
     {
+        images: ["/Page/Publicaciones/aux7/8.png", "/Page/Publicaciones/aux7/9.png", "/Page/Publicaciones/aux7/10.png", "/Page/Publicaciones/aux7/11.png"],
+        description: "Bandilera NEGRA - REINA",
+        price: "$15000",
+    },
+    {
         images: ["/Page/Publicaciones/7/15.png", "/Page/Publicaciones/7/16.png", "/Page/Publicaciones/7/17.png", "/Page/Publicaciones/7/18.png", "/Page/Publicaciones/7/19.png", "/Page/Publicaciones/7/20.png"],
         description: "Morral - BOCA PEZ EVERLAST",
         price: "$31300",
