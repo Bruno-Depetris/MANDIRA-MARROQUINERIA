@@ -3,7 +3,7 @@ const carruseles = [
 
     {
         images: ["/Page/Publicaciones/7/1.png", "/Page/Publicaciones/7/2.png", "/Page/Publicaciones/7/3.png", "/Page/Publicaciones/7/4.png", "/Page/Publicaciones/7/5.png", "/Page/Publicaciones/7/6.png"],
-        description: "Mochila EVERLAST - FEMENINA TAM MEDIO",
+        description: "Cartera EVERLAST - FEMENINA TAM MEDIO",
         price: "$27300",
     },
     {
@@ -18,7 +18,7 @@ const carruseles = [
     },
     {
         images: ["/Page/Publicaciones/7/15.png", "/Page/Publicaciones/7/16.png", "/Page/Publicaciones/7/17.png", "/Page/Publicaciones/7/18.png", "/Page/Publicaciones/7/19.png", "/Page/Publicaciones/7/20.png"],
-        description: "Morral - BOCA PEZ EVERLAST",
+        description: "Mochila - BOCA PEZ EVERLAST",
         price: "$31300",
     },
     {
