@@ -2,6 +2,21 @@
 const carruseles = [
 
     {
+        images: ["/Page/Publicaciones/8/1.png", "/Page/Publicaciones/8/2.png", "/Page/Publicaciones/8/3.png"],
+        description: "Billeteras POCKET  - AMAYRA DOS COLORES",
+        price: "$7000",
+    },
+    {
+        images: ["/Page/Publicaciones/8/4.png", "/Page/Publicaciones/8/5.png", "/Page/Publicaciones/8/6.png", "/Page/Publicaciones/8/7.png", "/Page/Publicaciones/8/8.png", "/Page/Publicaciones/8/9.png"],
+        description: "Billeteras POCKET  - AMAYRA TRES COLORES",
+        price: "$8000",
+    },
+    {
+        images: ["/Page/Publicaciones/8/10.png", "/Page/Publicaciones/8/11.png", "/Page/Publicaciones/8/12.png", "/Page/Publicaciones/8/13.png", "/Page/Publicaciones/8/14.png"],
+        description: "Billeteras POCKET  - TRENDY TRES COLORES",
+        price: "$16200",
+    },
+    {
         images: ["/Page/Publicaciones/7/1.png", "/Page/Publicaciones/7/2.png", "/Page/Publicaciones/7/3.png", "/Page/Publicaciones/7/4.png", "/Page/Publicaciones/7/5.png", "/Page/Publicaciones/7/6.png"],
         description: "Cartera EVERLAST - FEMENINA TAM MEDIO",
         price: "$27300",
