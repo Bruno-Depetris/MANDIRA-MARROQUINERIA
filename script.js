@@ -1,6 +1,45 @@
 // Datos de los carruseles: cada array es un conjunto de imágenes y sus detalles
 const carruseles = [
-
+    {
+        images: ["/Page/Publicaciones/6/12.png", "/Page/Publicaciones/6/13.png", "/Page/Publicaciones/6/14.png", "/Page/Publicaciones/6/15.png", "/Page/Publicaciones/6/16.png"],
+        description: "Bandolera ROSA - CHIMOLA",
+        price: "$55000",
+    },
+    {
+        images: ["/Page/Publicaciones/9/1.png", "/Page/Publicaciones/9/2.png", "/Page/Publicaciones/9/3.png", "/Page/Publicaciones/9/4.png", "/Page/Publicaciones/9/5.png", "/Page/Publicaciones/9/6.png"],
+        description: "SOBRE NEGRO OP1- AMAYRA ",
+        price: "$28800",
+    },
+    {
+        images: ["/Page/Publicaciones/9/7.png", "/Page/Publicaciones/9/8.png", "/Page/Publicaciones/9/9.png"],
+        description: "Riñonera Negra - AMAYRA",
+        price: "$28000",
+    },
+    {
+        images: ["/Page/Publicaciones/9/10.png", "/Page/Publicaciones/9/11.png", "/Page/Publicaciones/9/12.png", "/Page/Publicaciones/9/.png", "/Page/Publicaciones/9/7.png"],
+        description: "Sobre NEGRO OP2- AMAYRA",
+        price: "$28000",
+    },
+    {
+        images: ["/Page/Publicaciones/9/15.png", "/Page/Publicaciones/9/16.png", "/Page/Publicaciones/9/17.png", "/Page/Publicaciones/9/18.png", "/Page/Publicaciones/9/19.png"],
+        description: "Billetera / Porta Celular - AMAYRA",
+        price: "$20000",
+    },
+    {
+        images: ["/Page/Publicaciones/9/20.png", "/Page/Publicaciones/9/21.png", "/Page/Publicaciones/9/22.png", "/Page/Publicaciones/9/23.png", "/Page/Publicaciones/9/24.png"],
+        description: "Morral Hombre azul - BOSSI",
+        price: "$18000",
+    },
+    {
+        images: ["/Page/Publicaciones/9/25.png", "/Page/Publicaciones/9/26.png", "/Page/Publicaciones/9/27.png", "/Page/Publicaciones/9/28.png", "/Page/Publicaciones/9/29.png","/Page/Publicaciones/9/30.png"],
+        description: "MOCHILA - EVERLAST",
+        price: "$38000",
+    },
+    {
+        images: ["/Page/Publicaciones/9/31.png", "/Page/Publicaciones/9/32.png", "/Page/Publicaciones/9/33.png"],
+        description: "Cartucheras - TENDY",
+        price: "$CONSULTAR",
+    },
     {
         images: ["/Page/Publicaciones/8/1.png", "/Page/Publicaciones/8/2.png", "/Page/Publicaciones/8/3.png"],
         description: "Billeteras POCKET  - AMAYRA DOS COLORES",
@@ -50,11 +89,6 @@ const carruseles = [
         images: ["/Page/Publicaciones/7/33.png", "/Page/Publicaciones/7/34.png", "/Page/Publicaciones/7/35.png", "/Page/Publicaciones/7/36.png", "/Page/Publicaciones/7/37.png", "/Page/Publicaciones/7/38.png", "/Page/Publicaciones/7/39.png",  "/Page/Publicaciones/7/40.png"],
         description: "Billeteras - EVERLAST-HEAD",
         price: "$13000",
-    },
-    {
-        images: ["/Page/Publicaciones/6/12.png", "/Page/Publicaciones/6/13.png", "/Page/Publicaciones/6/14.png", "/Page/Publicaciones/6/15.png", "/Page/Publicaciones/6/16.png"],
-        description: "Bandolera ROSA - CHIMOLA",
-        price: "$55000",
     },
     {
         images: ["/Page/Publicaciones/6/1.png", "/Page/Publicaciones/6/2.png", "/Page/Publicaciones/6/3.png", "/Page/Publicaciones/6/4.png", "/Page/Publicaciones/6/5.png", "/Page/Publicaciones/6/6.png", "/Page/Publicaciones/6/7.png"],
