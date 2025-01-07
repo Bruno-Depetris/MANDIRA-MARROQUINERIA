@@ -16,7 +16,7 @@ const carruseles = [
         price: "$28000",
     },
     {
-        images: ["/Page/Publicaciones/9/10.png", "/Page/Publicaciones/9/11.png", "/Page/Publicaciones/9/12.png", "/Page/Publicaciones/9/.png", "/Page/Publicaciones/9/7.png"],
+        images: ["/Page/Publicaciones/9/10.png", "/Page/Publicaciones/9/11.png", "/Page/Publicaciones/9/12.png", "/Page/Publicaciones/9/13.png"],
         description: "Sobre NEGRO OP2- AMAYRA",
         price: "$28000",
     },
