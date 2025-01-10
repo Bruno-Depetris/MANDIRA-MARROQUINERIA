@@ -1,14 +1,33 @@
 // Datos de los carruseles: cada array es un conjunto de imágenes y sus detalles
 const carruseles = [
+
+
+    {
+        images: ["/Page/Publicaciones/11/10.png", "/Page/Publicaciones/11/11.png", "/Page/Publicaciones/11/12.png", "/Page/Publicaciones/11/13.png", "/Page/Publicaciones/11/14.png"],
+        description: "Mochila color gris - EVERLAST",
+        price: "$38000",
+    },
+    {
+        images: ["/Page/Publicaciones/11/1.png", "/Page/Publicaciones/11/2.png", "/Page/Publicaciones/11/3.png", "/Page/Publicaciones/11/4.png"],
+        description: "Morral - OREIRO",
+        price: "$45000",
+    },
+    {
+        images: ["/Page/Publicaciones/11/5.png", "/Page/Publicaciones/11/6.png", "/Page/Publicaciones/11/7.png", "/Page/Publicaciones/11/8.png", "/Page/Publicaciones/11/9.png"],
+        description: "Mochila - EVERLAST",
+        price: "$32000",
+    },
+    {
+        images: ["/Page/Publicaciones/11/15.png", "/Page/Publicaciones/11/16.png", "/Page/Publicaciones/11/17.png", "/Page/Publicaciones/11/18.png"],
+        description: "Mochila color hueso - EVERLAST",
+        price: "$50000",
+    },
+
+
     {
         images: ["/Page/Publicaciones/6/12.png", "/Page/Publicaciones/6/13.png", "/Page/Publicaciones/6/14.png", "/Page/Publicaciones/6/15.png", "/Page/Publicaciones/6/16.png"],
         description: "Bandolera ROSA - CHIMOLA",
         price: "$55000",
-    },
-    {
-        images: ["/Page/Publicaciones/9/1.png", "/Page/Publicaciones/9/2.png", "/Page/Publicaciones/9/3.png", "/Page/Publicaciones/9/4.png", "/Page/Publicaciones/9/5.png", "/Page/Publicaciones/9/6.png"],
-        description: "SOBRE NEGRO OP1- AMAYRA ",
-        price: "$28800",
     },
     {
         images: ["/Page/Publicaciones/9/7.png", "/Page/Publicaciones/9/8.png", "/Page/Publicaciones/9/9.png"],
@@ -61,11 +80,6 @@ const carruseles = [
         price: "$27300",
     },
     {
-        images: ["/Page/Publicaciones/7/7.png", "/Page/Publicaciones/7/8.png", "/Page/Publicaciones/7/9.png", "/Page/Publicaciones/7/10.png", "/Page/Publicaciones/7/11.png", "/Page/Publicaciones/7/12.png", "/Page/Publicaciones/7/13.png", "/Page/Publicaciones/7/14.png"],
-        description: "Mochila EVERLAST Verde- XXL",
-        price: "$37500",
-    },
-    {
         images: ["/Page/Publicaciones/aux7/8.png", "/Page/Publicaciones/aux7/9.png", "/Page/Publicaciones/aux7/10.png", "/Page/Publicaciones/aux7/11.png"],
         description: "Bandilera NEGRA - REINA",
         price: "$15000",
@@ -99,21 +113,6 @@ const carruseles = [
         images: ["/Page/Publicaciones/6/28.png", "/Page/Publicaciones/6/29.png", "/Page/Publicaciones/6/30.png", "/Page/Publicaciones/6/31.png"],
         description: "Riñonera XXL Negra - REINA",
         price: "$30600",
-    },
-    {
-        images: ["/Page/Publicaciones/6/24.png", "/Page/Publicaciones/6/25.png", "/Page/Publicaciones/6/26.png", "/Page/Publicaciones/6/27.png"],
-        description: "Bandolera NEGRA op3 - TRENDY",
-        price: "$25000",
-    },
-    {
-        images: ["/Page/Publicaciones/6/21.png", "/Page/Publicaciones/6/22.png", "/Page/Publicaciones/6/23.png"],
-        description: "Bandolera NEGRA op2 - TRENDY",
-        price: "$25000",
-    },
-    {
-        images: ["/Page/Publicaciones/6/17.png", "/Page/Publicaciones/6/18.png", "/Page/Publicaciones/6/19.png", "/Page/Publicaciones/6/20.png"],
-        description: "Bandolera NEGRA op1 - TRENDY",
-        price: "$25000",
     },
     {
         images: ["/Page/Publicaciones/5/1.png", "/Page/Publicaciones/5/2.png", "/Page/Publicaciones/5/3.png", "/Page/Publicaciones/5/4.png", "/Page/Publicaciones/5/5.png", "/Page/Publicaciones/5/6.png", "/Page/Publicaciones/5/7.png", "/Page/Publicaciones/5/8.png"],
