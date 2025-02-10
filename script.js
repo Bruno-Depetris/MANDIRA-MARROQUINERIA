@@ -1,7 +1,97 @@
 // Datos de los carruseles: cada array es un conjunto de imágenes y sus detalles
 const carruseles = [
+    // NUEVO
+
+    {
+        images: ["/Page/Publicaciones/12/1.png", "/Page/Publicaciones/12/2.png", "/Page/Publicaciones/12/3.png", "/Page/Publicaciones/12/4.png", "/Page/Publicaciones/12/5.png"],
+        description: "TOTE Color HUESO - CHIMOLA",
+        price: "$60000",
+    },
+    {
+        images: ["/Page/Publicaciones/12/11.png", "/Page/Publicaciones/12/12.png", "/Page/Publicaciones/12/13.png", "/Page/Publicaciones/12/14.png"],
+        description: "Mochila Color AQUA - INFLUENCER",
+        price: "$36000",
+    },
+    {
+        images: ["/Page/Publicaciones/12/15.png", "/Page/Publicaciones/12/16.png", "/Page/Publicaciones/12/17.png"],
+        description: "Maletin Negro OP2 - TRAVEL TECH ",
+        price: "$25000",
+    },
+    {
+        images: ["/Page/Publicaciones/12/18.png", "/Page/Publicaciones/12/19.png", "/Page/Publicaciones/12/20.png", "/Page/Publicaciones/12/21.png"],
+        description: "MALETIN Negro op2 - BOSSI",
+        price: "$30000",
+    },
+    {
+        images: ["/Page/Publicaciones/12/27.png", "/Page/Publicaciones/12/28.png", "/Page/Publicaciones/12/29.png", "/Page/Publicaciones/12/30.png", "/Page/Publicaciones/12/31.png"],
+        description: "Cartera negra COD:24651 - AMAYRA",
+        price: "$40000",
+    },
+    {
+        images: ["/Page/Publicaciones/12/32.png", "/Page/Publicaciones/12/33.png", "/Page/Publicaciones/12/34.png", "/Page/Publicaciones/12/35.png", "/Page/Publicaciones/12/36.png"],
+        description: "Cartera  - AMAYRA",
+        price: "$45000",
+    },
+    {
+        images: ["/Page/Publicaciones/12/37.png", "/Page/Publicaciones/12/38.png", "/Page/Publicaciones/12/39.png"],
+        description: "Morral - AMAYRA",
+        price: "$30000",
+    },
+    {
+        images: ["/Page/Publicaciones/12/40.png", "/Page/Publicaciones/12/41.png", "/Page/Publicaciones/12/42.png", "/Page/Publicaciones/12/43.png", "/Page/Publicaciones/12/44.png"],
+        description: "Cartera negra  - AMAYRA",
+        price: "$35000",
+    },
+    {
+        images: ["/Page/Publicaciones/12/48.png", "/Page/Publicaciones/12/49.png"],
+        description: "Billetera - EVERLAST",
+        price: "$20000",
+    },
+    {
+        images: ["/Page/Publicaciones/12/50.png", "/Page/Publicaciones/12/51.png", "/Page/Publicaciones/12/52.png", "/Page/Publicaciones/12/53.png"],
+        description: "Tarjeterao - MOTOR OIL",
+        price: "$15000",
+    },
+    {
+        images: ["/Page/Publicaciones/12/56.png", "/Page/Publicaciones/12/57.png", "/Page/Publicaciones/12/58.png", "/Page/Publicaciones/12/59.png", "/Page/Publicaciones/12/60.png"],
+        description: "Cartuchera - CHIMOLA",
+        price: "$35000",
+    },
+    {
+        images: ["/Page/Publicaciones/12/61.png"],
+        description: "Cartuchera - EVERLAST",
+        price: "$20000",
+    },
+    {
+        images: ["/Page/Publicaciones/12/62.png", "/Page/Publicaciones/12/63.png", "/Page/Publicaciones/12/64.png"],
+        description: "Cartuchera - INFLUENCER",
+        price: "$15000",
+    },
+    {
+        images: ["/Page/Publicaciones/12/65.png", "/Page/Publicaciones/12/66.png", "/Page/Publicaciones/12/67.png", "/Page/Publicaciones/12/68.png"],
+        description: "Bolso Viaje|GYM - EVERLAST",
+        price: "$30000",
+    },
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    // ANTERIOR
     {
         images: ["/Page/Publicaciones/11/10.png", "/Page/Publicaciones/11/11.png", "/Page/Publicaciones/11/12.png", "/Page/Publicaciones/11/13.png", "/Page/Publicaciones/11/14.png"],
         description: "Mochila color gris - EVERLAST",
@@ -22,8 +112,6 @@ const carruseles = [
         description: "Mochila color hueso - EVERLAST",
         price: "$50000",
     },
-
-
     {
         images: ["/Page/Publicaciones/6/12.png", "/Page/Publicaciones/6/13.png", "/Page/Publicaciones/6/14.png", "/Page/Publicaciones/6/15.png", "/Page/Publicaciones/6/16.png"],
         description: "Bandolera ROSA - CHIMOLA",
@@ -38,11 +126,6 @@ const carruseles = [
         images: ["/Page/Publicaciones/9/10.png", "/Page/Publicaciones/9/11.png", "/Page/Publicaciones/9/12.png", "/Page/Publicaciones/9/13.png"],
         description: "Sobre NEGRO OP2- AMAYRA",
         price: "$28000",
-    },
-    {
-        images: ["/Page/Publicaciones/9/15.png", "/Page/Publicaciones/9/16.png", "/Page/Publicaciones/9/17.png", "/Page/Publicaciones/9/18.png", "/Page/Publicaciones/9/19.png"],
-        description: "Billetera / Porta Celular - AMAYRA",
-        price: "$20000",
     },
     {
         images: ["/Page/Publicaciones/9/20.png", "/Page/Publicaciones/9/21.png", "/Page/Publicaciones/9/22.png", "/Page/Publicaciones/9/23.png", "/Page/Publicaciones/9/24.png"],
@@ -69,21 +152,7 @@ const carruseles = [
         description: "Billeteras POCKET  - AMAYRA TRES COLORES",
         price: "$8000",
     },
-    {
-        images: ["/Page/Publicaciones/8/10.png", "/Page/Publicaciones/8/11.png", "/Page/Publicaciones/8/12.png", "/Page/Publicaciones/8/13.png", "/Page/Publicaciones/8/14.png"],
-        description: "Billeteras POCKET  - TRENDY TRES COLORES",
-        price: "$16200",
-    },
-    {
-        images: ["/Page/Publicaciones/7/1.png", "/Page/Publicaciones/7/2.png", "/Page/Publicaciones/7/3.png", "/Page/Publicaciones/7/4.png", "/Page/Publicaciones/7/5.png", "/Page/Publicaciones/7/6.png"],
-        description: "Cartera EVERLAST - FEMENINA TAM MEDIO",
-        price: "$27300",
-    },
-    {
-        images: ["/Page/Publicaciones/aux7/8.png", "/Page/Publicaciones/aux7/9.png", "/Page/Publicaciones/aux7/10.png", "/Page/Publicaciones/aux7/11.png"],
-        description: "Bandilera NEGRA - REINA",
-        price: "$15000",
-    },
+
     {
         images: ["/Page/Publicaciones/7/15.png", "/Page/Publicaciones/7/16.png", "/Page/Publicaciones/7/17.png", "/Page/Publicaciones/7/18.png", "/Page/Publicaciones/7/19.png", "/Page/Publicaciones/7/20.png"],
         description: "Mochila - BOCA PEZ EVERLAST",
@@ -101,50 +170,21 @@ const carruseles = [
     },
     {
         images: ["/Page/Publicaciones/7/33.png", "/Page/Publicaciones/7/34.png", "/Page/Publicaciones/7/35.png", "/Page/Publicaciones/7/36.png", "/Page/Publicaciones/7/37.png", "/Page/Publicaciones/7/38.png", "/Page/Publicaciones/7/39.png",  "/Page/Publicaciones/7/40.png"],
-        description: "Billeteras - EVERLAST-HEAD",
-        price: "$13000",
+        description: "Billeteras (consultar precio con cierre)- EVERLAST-HEAD",
+        price: "$16000",
     },
-    {
-        images: ["/Page/Publicaciones/6/1.png", "/Page/Publicaciones/6/2.png", "/Page/Publicaciones/6/3.png", "/Page/Publicaciones/6/4.png", "/Page/Publicaciones/6/5.png", "/Page/Publicaciones/6/6.png", "/Page/Publicaciones/6/7.png"],
-        description: "Cartera - BARBARA",
-        price: "$60000",
-    },
+
     {
         images: ["/Page/Publicaciones/6/28.png", "/Page/Publicaciones/6/29.png", "/Page/Publicaciones/6/30.png", "/Page/Publicaciones/6/31.png"],
         description: "Riñonera XXL Negra - REINA",
         price: "$30600",
     },
-    {
-        images: ["/Page/Publicaciones/5/1.png", "/Page/Publicaciones/5/2.png", "/Page/Publicaciones/5/3.png", "/Page/Publicaciones/5/4.png", "/Page/Publicaciones/5/5.png", "/Page/Publicaciones/5/6.png", "/Page/Publicaciones/5/7.png", "/Page/Publicaciones/5/8.png"],
-        description: "Mochila Negra - AMAYRA",
-        price: "$46260",
-    },
-    {
-        images: ["/Page/Publicaciones/5/9.png", "/Page/Publicaciones/5/10.png", "/Page/Publicaciones/5/11.png", "/Page/Publicaciones/5/12.png", "/Page/Publicaciones/5/13.png", "/Page/Publicaciones/5/14.png"],
-        description: "Mochila - Everlast BYN",
-        price: "$35180",
-    },
-    {
-        images: ["/Page/Publicaciones/5/20.png", "/Page/Publicaciones/5/21.png", "/Page/Publicaciones/5/22.png", "/Page/Publicaciones/5/23.png", "/Page/Publicaciones/5/24.png", "/Page/Publicaciones/5/25.png"],
-        description: "Mochila Negra Opaca - CHIMOLA",
-        price: "$86630",
-    },
-    {
-        images: ["/Page/Publicaciones/5/26.png", "/Page/Publicaciones/5/27.png", "/Page/Publicaciones/5/28.png", "/Page/Publicaciones/5/29.png", "/Page/Publicaciones/5/30.png", "/Page/Publicaciones/5/31.png"],
-        description: "Mochila Rosa - INFLUENCE",
-        price: "$35760",
-    },
+
     {
         images: ["/Page/Publicaciones/5/32.png", "/Page/Publicaciones/5/33.png", "/Page/Publicaciones/5/34.png", "/Page/Publicaciones/5/35.png", "/Page/Publicaciones/5/36.png"],
         description: "Mochila Roja - WILSON",
         price: "$23350",
     },
-    {
-        images: ["/Page/Publicaciones/5/37.png", "/Page/Publicaciones/5/38.png", "/Page/Publicaciones/5/39.png", "/Page/Publicaciones/5/40.png", "/Page/Publicaciones/5/41.png", "/Page/Publicaciones/5/42.png"],
-        description: "Mochila Con USB - UNICROSS",
-        price: "$35250",
-    },
-    
     {
         images: ["/Page/Publicaciones/5/47.png", "/Page/Publicaciones/5/48.png"],
         description: "Billetera VERDE - AMAYRA",
@@ -164,11 +204,6 @@ const carruseles = [
         images: ["/Page/Publicaciones/5/55.png", "/Page/Publicaciones/5/56.png", "/Page/Publicaciones/5/57.png", "/Page/Publicaciones/5/58.png"],
         description: "Billetera NEGRA LISA - AMAYRA",
         price: "$11400",
-    },
-    {
-        images: ["/Page/Publicaciones/5/43.png", "/Page/Publicaciones/5/44.png", "/Page/Publicaciones/5/45.png", "/Page/Publicaciones/5/46.png"],
-        description: "Cartera NEGRA - TRENDY",
-        price: "$19800",
     },
 
 ];
